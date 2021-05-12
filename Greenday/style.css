@@ -1,0 +1,22 @@
+.nav-wrapper {
+  background-color: white;
+}
+
+.nav-wrapper ul li a {
+  color: black;
+  /* font-family: "Roboto Slab", serif; */
+}
+
+.sidenav-trigger {
+  color: black;
+}
+
+.fmaindiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box2 {
+  margin-left: 50px;
+  font-size: large;
+}
