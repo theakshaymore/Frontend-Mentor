@@ -39,7 +39,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 main {
@@ -83,7 +83,8 @@ section {
 .bubble {
   position: absolute;
   z-index: -2;
-  background: linear-gradient(to right top, #232526, #414345);
+  /* background: linear-gradient(to right top, #232526, #414345); */
+  background-color: rgb(152, 121, 184);
   border-radius: 99px;
   transform: scale(2);
   transition: all 0.5s ease;
