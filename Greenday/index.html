@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Day</title>
+    <!-- Google Font Link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Link -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="fnavbar">
+      <nav class="nav-fixed">
+        <div class="nav-wrapper">
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <a href="#" style="color: black" onclick="toggleModal()">Home</a>
+            </li>
+            <li>
+              <a href="#" style="color: black" onclick="toggleModal()">About</a>
+            </li>
+            <li>
+              <a href="#" style="color: black" onclick="toggleModal()"
+                >Contribute</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#" onclick="toggleModal()">Home</a></li>
+        <li><a href="#" onclick="toggleModal()">About</a></li>
+        <li><a href="#" onclick="toggleModal()">Contribute</a></li>
+      </ul>
+    </section>
+
+    <section class="fmaindiv">
+      <div class="box1">
+        <img height="550" src="img/img3.svg" />
+      </div>
+      <div class="box2">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non doloribus
+        quibusdam cupiditate dolorum sed, saepe asperiores dignissimos cumque
+        harum veniam eligendi reprehenderit possimus voluptatibus praesentium
+        iste neque iusto magnam illo odio recusandae perspiciatis autem?
+        Cupiditate rem, perspiciatis, et accusantium molestias odio magnam
+        voluptate possimus, vel voluptates alias ipsa. At, pariatur.
+      </div>
+    </section>
+  </body>
+
+  <!-- Jquery Link -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Materialize CSS JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- Custom Js -->
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#timer {
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  /* font-style:italic; */
+  font-size: 30px;
+}
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.bag {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(238, 146, 146, 0.899) 0%,
+      rgba(237, 22, 22, 0.7) 100%
+    ),
+    url(img/1.jpg); /* transform: rotate(90deg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 43px;
+  /* background-size: cover; */
+  width: 100%;
+  /* height: 300%; */
+  min-height: 100vh;
+}
+sub {
+  font-size: xx-small;
+}
+p::first-letter {
+  font-size: 150px;
+}
+.Names {
+  font-style: italic;
+  font-family: cursive;
+  color: black;
+  text-align: center;
+  font-size: x-large;
+}
+
+h1 {
+  background: auto;
+  text-align: center;
+  /* align-items: right; */
+  font-style: italic;
+  font-size: 55px;
+  font-weight: 100;
+  color: rgb(57, 57, 57);
+  /* font-display: center; */
+}
+.navbar {
+  background-color: auto;
+
+  text-underline-position: below;
+  font-size: x-large;
+}
+.nav-link {
+  padding: 30px 10px;
+  color: rgb(57, 57, 57);
+  margin-top: 0px;
+  text-decoration: none;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line {
+  width: 100%;
+  height: 10px;
+  border-bottom: 1px solid black;
+  position: absolute;
+}
+
+.intro {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(238, 146, 146, 0.899) 0%,
+    rgba(237, 22, 22, 0.7) 100%
+  );
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background-image: linear-gradient(to bottom, rgba(238, 146, 146, 0.899) 0%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+}
+
+.hide {
+  background-image: linear-gradient(to bottom, rgba(238, 146, 146, 0.899) 0%);
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
