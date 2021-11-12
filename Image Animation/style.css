@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  font-weight: 500;
+}
+
+.main {
+  margin: 20px 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.div1 {
+  width: 550px;
+  height: 400px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.div1 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.second-img {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.second-img:hover {
+  opacity: 1;
+}
+
+.div2 {
+  width: 550px;
+  height: 400px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.div2 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fade::after {
+  content: "Mountains";
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.fade:hover::after {
+  opacity: 0.5;
+}

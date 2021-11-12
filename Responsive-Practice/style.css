@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0px;
+  color: #e0610e;
+}
+
+.intro-text {
+  text-align: left;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: brown;
+  color: white;
+  border: none;
+  margin: 10px 0;
+}
+
+@media (max-width: 500px) {
+  .intro-text {
+    text-align: center;
+  }
+}
