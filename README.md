@@ -4,7 +4,7 @@ See them live here.
 
 1.  [Animation website (plant trees)](https://plant-trees.netlify.app/).
 2.  [IT-Services](https://it-solutions.netlify.app/).
-3.  [News from India](https://futureindia.netlify.app/).
+3.  [News from India]
 4.  [Signin Form](https://gracious-sammet-3354c8.netlify.app/).
 5.  [Landing Page](https://silly-chandrasekhar-76bb08.netlify.app/).
 6.  [Animated Loading Button](https://animated-button.netlify.app/).
